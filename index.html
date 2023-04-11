@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do Lost</title>
-    <script src="toDoList.js" defer></script>
     <link rel="stylesheet" href="main.css" />
+    <script src="toDoList.js" defer></script>
   </head>
   <body>
     <h1>
@@ -18,7 +18,12 @@
       <span class="write-task">task</span> to get things done
       <span class="dot">.</span>
     </h3>
-    <input type="Task" id="taskInput" class="task-bar" />
-    <button id="setButton" class="set-button">Set</button>
+    <main>
+      <div id="addTask">
+        <input type="text" placeholder="Write Task" class="task-bar" />
+        <button class="set-button">Set</button>
+      </div>
+      <div class="content" id="content"></div>
+    </main>
   </body>
 </html>
