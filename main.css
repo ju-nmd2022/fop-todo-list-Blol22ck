@@ -14,11 +14,11 @@ h1 {
 h3 {
   text-align: center;
   margin-top: -30px;
-  color: #c5ff74;
+  color: #fc6c85;
 }
 
 .to-header {
-  color: #c5ff74;
+  color: #fc6c85;
 }
 
 .do-header {
@@ -27,7 +27,7 @@ h3 {
 }
 
 .list-header {
-  color: #c5ff74;
+  color: #fc6c85;
 }
 
 .write-task {
@@ -47,12 +47,12 @@ h3 {
   font-size: 1.2rem;
   padding: 5px;
   border: none;
-  border-bottom: 1px solid #c5ff74;
+  border-bottom: 1px solid #fc6c85;
   margin-right: 10px;
 }
 
 .set-button {
-  background-color: #c5ff74;
+  background-color: #fc6c85;
   color: #000000;
   border: none;
   padding: 10px 20px;

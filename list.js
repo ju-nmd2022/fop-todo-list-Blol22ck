@@ -1,18 +1,18 @@
 // Get elements from the DOM
-const taskBar = document.querySelector(".task-bar");
-const addButton = document.querySelector("#set-button");
-const taskCart = document.querySelector("#taskCart");
+const taskBar = document.getElementById("taskBar");
+const addButton = document.getElementById("setButton");
+const taskCart = document.getElementById("taskCart");
 
 // Initialize tasks array
 let tasks = [];
 
-// Add task to the array and the task list
+// Add task to the array and the task list, Used ChatGPT for line 15-19.
 function addTask() {
   if (taskBar.value === "") {
-    alert("Please enter a task.");
     return;
   }
 
+  // Date enables basic storage and now retrieves the storage.
   const task = {
     id: Date.now(),
     name: taskBar.value,
@@ -43,7 +43,7 @@ function deleteTask(id) {
   displayTasks();
 }
 
-// Display tasks
+// Display tasks, Used a combination of Garrits website as well as w3Schools.
 function displayTasks() {
   taskCart.innerHTML = "";
 
@@ -90,7 +90,7 @@ function getTasks() {
   }
 }
 
-// Event listeners
+// Event listeners, Used ChatGPT to help out with the following lines (93-98)
 addButton.addEventListener("click", addTask);
 taskBar.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
