@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: -30px;
+  color: #c5ff74;
+}
+
+.to-header {
+  color: #c5ff74;
+}
+
+.do-header {
+  color: #000000;
+  font-size: 48px;
+}
+
+.list-header {
+  color: #c5ff74;
+}
+
+.write-task {
+  color: #000000;
+  font-size: x-large;
+}
+
+.dot {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  color: #000000;
+}
+
+.task-bar {
+  width: 70%;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #c5ff74;
+  margin-right: 10px;
+}
+
+.set-button {
+  background-color: #c5ff74;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.set-button:hover {
+  background-color: #fc6c85;
+  color: rgb(0, 0, 0);
+}
+
+.delete-button {
+  background-color: #fc6c85;
+  color: #000000;
+  border: none;
+}
