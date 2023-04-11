@@ -26,7 +26,7 @@ function addTask() {
   displayTasks();
 }
 
-// Toggle task as done
+// Toggle task as done, Used Stackoverflow and w3Schools for the done callback.
 function toggleDone(id) {
   const taskIndex = tasks.findIndex((task) => task.id === id);
   tasks[taskIndex].done = !tasks[taskIndex].done;
